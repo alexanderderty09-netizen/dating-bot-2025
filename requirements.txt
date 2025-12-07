@@ -1,3 +1,4 @@
 aiogram==3.13.1
 aiosqlite
 aiohttp
+pydantic==2.9.2  # Фиксит NoneType в валидации
