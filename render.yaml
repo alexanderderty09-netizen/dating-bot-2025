@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: dating-bot-2025
+    env: python
+    region: frankfurt
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    autoDeploy: true
+    envVars:
+      TOKEN:
+        value: "8509066659:AAF9hRt-eEblsEbOfa5_j0d2KZpIbVBWtyo"
+      CRYPTOBOT_TOKEN:
+        value: "497872:AAEUyXpKWLY5uG8n7jzEY0l8J6cE3EhGVKh"
