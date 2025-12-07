@@ -1,4 +1,4 @@
-8services:
+services:
   - type: web
     name: dating-bot-2025
     env: python
@@ -8,7 +8,5 @@
     startCommand: python main.py
     autoDeploy: true
     envVars:
-      TOKEN:
-        value: "8509066659:AAEDm5zSukk6HOpmm-2sOENu2qZr5kRcmk4"
-      CRYPTOBOT_TOKEN:
-        value: "497872:AAEUyXpKWLY5uG8n7jzEY0l8J6cE3EhGVKh"
+      TOKEN: 8509066659:AAF9hRt-eEblsEbOfa5_j0d2KZpIbVBWtyo  # Без кавычек, как в docs
+      CRYPTOBOT_TOKEN: 497872:AAEUyXpKWLY5uG8n7jzEY0l8J6c3EhGVKh
